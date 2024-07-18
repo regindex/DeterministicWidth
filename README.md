@@ -16,7 +16,7 @@ This tool implements a software to compute the deterministic co-lex width of a r
 To clone the repository, run the following commands:
 
 ```console
-git clone https://github.com/regindex/Wheeler-language-recognizer.git
+git clone https://github.com/regindex/DeterministicWidth
 git submodule update --init --recursive
 ```
 
