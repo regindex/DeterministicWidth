@@ -34,7 +34,7 @@ The tool can take in input a regular expression; the supported operators are "()
 ```
 "a(ac*a)|(bc*b)"
 ```
-The tool can also take in input a DFA. In the first line, the file has to contain information about the number of states, number of edges, source state, and number of accepting states. The rest of the file contains an edge per line (origin - label - destination) and a list of accepting states separated by newline characters. We further ask that the source has a single outgoing edge labeled by the smallest label in the automaton (see below for an example).
+The tool can also take in input a DFA. In the first line, the file has to contain information about the number of states, number of edges, source state, and number of accepting states. The rest of the file contains an edge per line (origin - label - destination) and a list of accepting states separated by newline characters. We further ask that the source has a single incoming edge labeled by the smallest label in the automaton (see below for an example).
 ```
 9 12 0 2
 0 0 1
